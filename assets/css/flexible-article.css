@@ -1,0 +1,25 @@
+article {
+  background-color: #fbf7e3;
+  display: flex;
+  padding: 2em;
+  border-radius: 3em;
+  color: #612406;
+}
+
+article img {
+  height: 40vh;
+  margin-right: 3em;
+}
+
+@media screen and (max-width: 768px) {
+  article {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  article img {
+    width: 100%;
+    margin-top: 2em;
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,30 @@
+nav {
+  background-color: #fbf7e3;
+  height: 7em;
+  border-radius: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+button {
+  border: 0;
+  background-color: #f3df85;
+  padding: 0.7em;
+  color: #612406;
+  font-size: 1.1em;
+  border-radius: 3em;
+}
+
+.main-btn img {
+  width: 20%;
+}
+
+.main-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  width: 9em;
+  height: 4.5em;
+}
