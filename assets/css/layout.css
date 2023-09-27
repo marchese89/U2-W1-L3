@@ -2,6 +2,12 @@ body {
   margin: 0;
 }
 
+h1,
+h2 {
+  color: #742305;
+  margin-left: 0.5em;
+}
+
 @media screen and (min-width: 576px) and (max-width: 768px) {
   nav {
     border-radius: 0;
@@ -29,11 +35,6 @@ body {
     width: 100%;
     height: 65vh;
   }
-  h1,
-  h2 {
-    color: #742305;
-    margin-left: 0.5em;
-  }
 
   article {
     height: 64vh;
@@ -51,5 +52,74 @@ body {
 
   .news {
     margin-top: 8em;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  h1,
+  h2 {
+    color: #742305;
+    margin-left: 0.5em;
+  }
+  h1 {
+    margin-left: 1em;
+  }
+  body {
+    display: flex;
+    flex-direction: row;
+  }
+  nav {
+    flex-direction: column;
+    height: auto;
+    justify-content: flex-start;
+    border-radius: 0;
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  nav button {
+    order: 2;
+    margin: 0.5em 0;
+    width: 9em;
+    height: 4.5em;
+  }
+  .main-btn {
+    order: 1;
+    justify-content: center;
+  }
+  .main-btn img {
+    margin-right: 0.7em;
+  }
+  .best-selling {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .bs-out {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .news {
+    padding: 1em;
+  }
+
+  h2 {
+    margin-bottom: 1em;
+  }
+
+  .article-text h2 {
+    margin-left: 0;
+  }
+
+  .text div h2 {
+    margin-bottom: 0;
+    color: #742305;
+    font-size: 1.2em;
+  }
+
+  .news h2 {
+    font-size: 1.5em;
   }
 }
